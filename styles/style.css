@@ -1,88 +1,143 @@
 * {
-            margin: 0;
-            padding: 0;
-            border: none;
-            text-decoration: none;
-            list-style-type: none;
-            box-sizing: border-box;
- }
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
 
 
-           .container {
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
- }
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+iframe {
+    display: inline-block;
+    text-align: center;
+}
 
 
-          
-   
-		
 
-	  .image-container {
-               background-image: url(/images/large.jpg;)
-               background-size: cover;
- 	       background-position: center;
- 	       background-repeat: no-repeat;
- 	       width: 100%;
-  	       height: 400px;
-	       display; flex;
-  	       align-items: center;
-               justify-content: center;
-  
-       	    h1 {
-   		 color: white;
- 		 font-size: 15px;
- 		 text-align: center;
-	}
-            
-	    p{
-
-		color: white;
- 		 font-size: 8px;
- 		 text-align: center
+.cities {
+    width: 50%;
+    max-width: 400px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
 
 }
 
 
-	    header{
-		
-		padding: 30px;
-		bakground-image: url(/images/large.jpg;) 
-                background-color: black;
- 
-		
+
+.brand-member {
+    width: 50%;
+    max-width: 400px;
+    text-align: center;
+    display: inline-block;
+    color: #000;
+}
+
+
+.tour {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.tour li{
+    color: black;
+    text-align: start;
+}
+
+
+
+header li {
+    display: inline-block;
+    margin: 10px 20px;
 
 }
-    
-  
-     .navbar ul li a {
-            display: inline-block;
-            margin: 10px 20px;
-	    background-color: black;
- 	    
 
-  
-	 @media(min-width: 576) {
-            .container {
-                max-width: 324;
-
-	}
-           
-
-        @media(min-width: 768) {
-            .container {
-                max-width: 432;
-            
-        }
+header li a {
+    color: white;
+}
 
 
-        @media(min-width: 1200) {
-            .container {↩
-                max-width: 675;
-                justify-content: space-between;
-                align-items: center;
-            
-	}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+body {
+    font-size: 10px;
+}
+
+
+
+
+div ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+.image-container {
+    background-image: url(./images/large.jpg;);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+
+}
+
+p {
+
+    color: #000;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-image: url(./images/large.jpg);
+    background-color: black;
+}
+
+@media(min-width: 576px) {
+    .container {
+        max-width: 324;
+
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        max-width: 432;
+
+    }
+}
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 675;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+}
